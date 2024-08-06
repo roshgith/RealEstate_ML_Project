@@ -1,0 +1,81 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7b9dcc;
+}
+
+.container {
+    max-width: 400px; /* Reduced width for a smaller container */
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.form {
+    text-align: left; /* Align form elements to the left */
+    margin-bottom: 20px; /* Space between form sections */
+}
+
+.form h2 {
+    font-size: 1.2rem; /* Slightly smaller heading */
+    margin-bottom: 10px;
+    color: #333333; /* Dark gray text */
+}
+
+.switch-field {
+    margin-bottom: 20px; /* Space between radio button groups */
+}
+
+.switch-field input[type="radio"] {
+    display: none; /* Hide the default radio buttons */
+}
+
+.switch-field label {
+    display: inline-block;
+    background-color: #e9ecef; /* Light gray background for labels */
+    color: #333333; /* Dark gray text */
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.switch-field input[type="radio"]:checked + label {
+    background-color: #1d8f83; /* Blue background for checked radio button */
+    color: #ffffff; /* White text for checked radio button */
+}
+
+.location {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 4px;
+    margin-bottom: 20px; /* Space below select element */
+}
+
+.submit {
+    background-color: #1d8f83; /* Blue button background */
+    color: #ffffff; /* White button text */
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #698e3c; /* Darker blue on hover */
+}
+
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333333; /* Dark gray text */
+}
